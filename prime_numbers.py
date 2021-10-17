@@ -30,4 +30,4 @@ while len(my_list) > 0:
 prime_list.append(no_check[0])
 print(prime_list)
 
-#STEP 5: Algorithm complete.
+#STEP 6: Algorithm complete.
