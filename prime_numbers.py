@@ -2,7 +2,8 @@
 #STEP 1: Create a list of consecutive unsigned integers from 2 to chosen “n”: (2, 3, 4, 5, 6 ..., n).
 #Here we use 2 - 100
 
-my_list = list(range(2, 100))
+user_num = int(input('Enter a number greater than 2 that you want to find all the prime numbers up till: '))
+my_list = list(range(2, user_num))
 
 #STEP 2: 2 will be the starting prime number assigned “p”
 
