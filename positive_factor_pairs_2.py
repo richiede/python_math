@@ -10,5 +10,4 @@ for i in range(1, num+1):
         temp_list = sorted([int(num/i), int(i)])
         if temp_list not in final_list:
             final_list.append(temp_list)
-    return final_list
-  
+    return(final_list)
